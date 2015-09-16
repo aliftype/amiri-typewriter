@@ -34,10 +34,9 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: ISO8859-1
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
 EndSplineFont
