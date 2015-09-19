@@ -6,6 +6,6 @@ GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
-Refer: 44 -1 N 1 0 0 1 444.5 173 2
-Refer: 45 -1 N 1 0 0 1 436.5 -1 2
+Refer: 44 -1 N 1 0 0 1 8 173 2
+Refer: 45 -1 N 1 0 0 1 0 -1 2
 EndChar
