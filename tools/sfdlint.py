@@ -5,12 +5,15 @@ font = fontforge.open(sys.argv[1])
 
 bad_glyph_classes = {}
 bad_side_bearings = {}
+bad_widths = []
 
 for glyph in font.glyphs():
     if glyph.glyphclass not in ("mark", "baseglyph"):
         if glyph.glyphclass not in bad_glyph_classes:
             bad_glyph_classes[glyph.glyphclass] = []
         bad_glyph_classes[glyph.glyphclass].append(glyph.glyphname)
+    if glyph.width != font["space"].width:
+        bad_widths.append(glyph.glyphname)
 #   if ".init" in glyph.glyphname or ".isol" in glyph.glyphname:
 #       if "arKaf.init" not in glyph.glyphname:
 #           if glyph.right_side_bearing <= 0:
@@ -28,6 +31,12 @@ if bad_side_bearings:
     from pprint import pformat
     print >> sys.stderr, "Some glyphs have bad side bearings:"
     print >> sys.stderr, pformat(bad_side_bearings)
+    sys.exit(1)
+
+if bad_widths:
+    from pprint import pformat
+    print >> sys.stderr, "Some glyphs have bad width:"
+    print >> sys.stderr, pformat(bad_widths)
     sys.exit(1)
 
 with open(sys.argv[2], "w") as log:
