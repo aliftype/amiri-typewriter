@@ -8,7 +8,6 @@ from sortsmill import ffcompat as fontforge
 def merge(args):
     arabic = fontforge.open(args.arabicfile)
     arabic.encoding = "Unicode"
-    print args.feature_file
     arabic.mergeFeature(args.feature_file)
 
 #   latin = fontforge.open(args.latinfile)
