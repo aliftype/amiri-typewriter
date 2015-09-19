@@ -2,6 +2,7 @@ StartChar: uni0654
 Encoding: 1620 1620 108
 Width: 872
 VWidth: 0
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore

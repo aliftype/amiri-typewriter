@@ -2,6 +2,7 @@ StartChar: arSad.init
 Encoding: 65566 -1 74
 Width: 872
 VWidth: 0
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Back

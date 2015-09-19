@@ -2,7 +2,7 @@ StartChar: uni06C0
 Encoding: 1728 1728 121
 Width: 872
 VWidth: 0
-Flags: H
+GlyphClass: 2
 LayerCount: 2
 Fore
 Refer: 68 -1 N 1 0 0 1 0 0 3

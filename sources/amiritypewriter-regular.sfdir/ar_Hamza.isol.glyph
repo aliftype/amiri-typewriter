@@ -2,6 +2,7 @@ StartChar: arHamza.isol
 Encoding: 65583 -1 107
 Width: 872
 VWidth: -1400
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore

@@ -2,6 +2,7 @@ StartChar: arKaf.isol
 Encoding: 65556 -1 64
 Width: 872
 VWidth: 0
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Back

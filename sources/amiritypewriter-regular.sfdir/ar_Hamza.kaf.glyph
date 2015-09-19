@@ -2,6 +2,7 @@ StartChar: arHamza.kaf
 Encoding: 65544 -1 52
 Width: 872
 VWidth: -1000
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
