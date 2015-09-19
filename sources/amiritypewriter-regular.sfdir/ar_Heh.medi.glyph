@@ -4,6 +4,8 @@ Width: 872
 VWidth: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "arMarkAbove" 607 595 basechar 0
+AnchorPoint: "arMarkBelow" 668 -828 basechar 0
 LayerCount: 2
 Fore
 SplineSet

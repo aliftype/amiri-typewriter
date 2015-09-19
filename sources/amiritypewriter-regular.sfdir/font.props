@@ -32,6 +32,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 0"  {"'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
@@ -78,4 +79,5 @@ Grid
  -841.903320312 196.315429688 -830.0390625 206.482421875 -805.583007812 197.791992188 c 0
  -504.66796875 103.40625 -259.516601562 99.158203125 -70.12890625 185.047851562 c 1
 EndSplineSet
+AnchorClass2: "arMarkBelow"  "'mark' Mark Positioning lookup 0-1" "arMarkAbove"  "'mark' Mark Positioning lookup 0-1" 
 EndSplineFont
