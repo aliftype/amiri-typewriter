@@ -1,14 +1,14 @@
 SplineFontDB: 3.0
 FontName: AmiriTypewriter-Regular
-FullName: AmiriTypewriter
-FamilyName: AmiriTypewriter
+FullName: Amiri Typewriter
+FamilyName: Amiri Typewriter
 Weight: Regular
 Copyright: Copyright (c) 2015, Khaled Hosny (<khaledhosny@eglug.org>).
 UComments: "2015-9-15: Created." 
 Version: 0.1
 ItalicAngle: 0
-UnderlinePosition: -204.8
-UnderlineWidth: 102.4
+UnderlinePosition: -204
+UnderlineWidth: 102
 Ascent: 1638
 Descent: 410
 LayerCount: 2
