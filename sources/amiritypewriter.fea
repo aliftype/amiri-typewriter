@@ -126,7 +126,7 @@ feature medi {
     sub uni0641 by arFeh.init ar1Noqta.above;
     sub uni0642 by arFeh.init ar2Noqta.above;
     sub uni0643 by arKaf.init;
-    sub uni0644 by arLam.init;
+    sub uni0644 by arLam.medi;
     sub uni0645 by arMem.init;
     sub uni0646 by arBeh.medi ar1Noqta.above;
     sub uni0647 by arHeh.medi;
@@ -217,3 +217,19 @@ feature locl {
     sub uni06F7 by uni06F7.urd;
 #   sub uni0657 by uni0657.urd;
 } locl;
+
+lookup LamAlefIsol {
+  sub arLam.init by arLam.init.2;
+  sub arAlef.fina by arAlef.fina.2;
+} LamAlefIsol;
+
+lookup LamAlefFina {
+  sub arLam.medi by arLam.medi.1;
+  sub arAlef.fina by arAlef.fina.1;
+} LamAlefFina;
+
+feature rlig {
+  lookupflag IgnoreMarks;
+    sub arLam.init' lookup LamAlefIsol arAlef.fina' lookup LamAlefIsol;
+    sub arLam.medi' lookup LamAlefFina arAlef.fina' lookup LamAlefFina;
+} rlig;

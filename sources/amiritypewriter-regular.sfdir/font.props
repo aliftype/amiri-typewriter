@@ -34,6 +34,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0"  {"'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment lookup 1"  {"'curs' Cursive Attachment lookup 1-1"  } ['curs' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
@@ -41,5 +42,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "arMarkBelow"  "'mark' Mark Positioning lookup 0-1" "arMarkAbove"  "'mark' Mark Positioning lookup 0-1" 
+AnchorClass2: "arCursive"  "'curs' Cursive Attachment lookup 1-1" "arMarkBelow"  "'mark' Mark Positioning lookup 0-1" "arMarkAbove"  "'mark' Mark Positioning lookup 0-1" 
 EndSplineFont

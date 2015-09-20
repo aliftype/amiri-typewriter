@@ -4,6 +4,7 @@ Width: 872
 VWidth: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "arCursive" 0 0 exit 0
 AnchorPoint: "arMarkAbove" 601 1175 basechar 0
 AnchorPoint: "arMarkBelow" 858 -208 basechar 0
 LayerCount: 2
