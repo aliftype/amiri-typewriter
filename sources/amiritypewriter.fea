@@ -157,7 +157,7 @@ feature fina {
     sub uni0626 by arYeh.fina uni0654;
     sub uni0627 by arAlef.fina;
     sub uni0628 by arBeh.fina ar1Noqta.below;
-    sub uni0629 by arHeh.isol ar2Noqta.above;
+    sub uni0629 by arHeh.fina ar2Noqta.above;
     sub uni062A by arBeh.fina ar2Noqta.above;
     sub uni062B by arBeh.fina ar3Noqta.above;
     sub uni062C by arHah.isol ar1Noqta.below;
@@ -181,7 +181,7 @@ feature fina {
     sub uni0644 by arLam.isol;
     sub uni0645 by arMem.isol;
     sub uni0646 by arNoon.isol ar1Noqta.above;
-    sub uni0647 by arHeh.isol;
+    sub uni0647 by arHeh.fina;
     sub uni0648 by arWaw.isol;
     sub uni0649 by arYeh.fina;
     sub uni064A by arYeh.fina ar2Noqta.below;
@@ -197,7 +197,7 @@ feature fina {
     sub uni06AF by arGaf.isol arSharta.kaf;
     sub uni06BA by arNoon.isol;
     sub uni06BB by arNoon.isol arTah.mark;
-    sub uni06C0 by arHeh.isol uni0654;
+    sub uni06C0 by arHeh.fina uni0654;
     sub uni06C1 by arHeh.init;
     sub uni06BE by arHeh.fina3;
     sub uni06D2 by arYeh.fina2;
