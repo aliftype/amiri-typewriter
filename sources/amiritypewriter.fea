@@ -197,9 +197,9 @@ feature fina {
     sub uni06AF by arGaf.isol arSharta.kaf;
     sub uni06BA by arNoon.isol;
     sub uni06BB by arNoon.isol arTah.mark;
-    sub uni06C0 by arHeh.fina uni0654;
-    sub uni06C1 by arHeh.init;
-    sub uni06BE by arHeh.fina3;
+    sub uni06C0 by arHeh.fina2 uni0654;
+    sub uni06C1 by arHeh.fina2;
+    sub uni06BE by arHeh.init;
     sub uni06D2 by arYeh.fina2;
     sub uni06D3 by arYeh.fina2 uni0654;
     sub uni06CC by arYeh.fina;
