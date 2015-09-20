@@ -29,7 +29,7 @@ LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 ttx?=false
 crunch?=false
 
-all: ttf doc
+all: lint ttf doc
 
 ttf: $(TTF)
 doc: $(PDF)
