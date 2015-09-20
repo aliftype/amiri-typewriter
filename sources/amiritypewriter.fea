@@ -150,12 +150,12 @@ feature medi {
 feature fina {
   lookupflag IgnoreMarks;
     sub uni0621 by arHamza.isol;
-    sub uni0622 by arAlef.isol uni0653;
-    sub uni0623 by arAlef.isol uni0654;
+    sub uni0622 by arAlef.fina uni0653;
+    sub uni0623 by arAlef.fina uni0654;
     sub uni0624 by arWaw.isol uni0654;
-    sub uni0625 by arAlef.isol uni0655;
+    sub uni0625 by arAlef.fina uni0655;
     sub uni0626 by arYeh.fina uni0654;
-    sub uni0627 by arAlef.isol;
+    sub uni0627 by arAlef.fina;
     sub uni0628 by arBeh.fina ar1Noqta.below;
     sub uni0629 by arHeh.isol ar2Noqta.above;
     sub uni062A by arBeh.fina ar2Noqta.above;
@@ -185,7 +185,7 @@ feature fina {
     sub uni0648 by arWaw.isol;
     sub uni0649 by arYeh.fina;
     sub uni064A by arYeh.fina ar2Noqta.below;
-    sub uni0671 by arAlef.isol arSad.mark;
+    sub uni0671 by arAlef.fina arSad.mark;
     sub uni067E by arBeh.fina ar3Noqta.below;
     sub uni0679 by arBeh.fina arTah.mark;
     sub uni06A4 by arFeh.isol ar3Noqta.above;
