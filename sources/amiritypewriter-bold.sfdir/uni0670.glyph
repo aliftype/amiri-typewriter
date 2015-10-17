@@ -1,0 +1,19 @@
+StartChar: uni0670
+Encoding: 1648 1648 167
+Width: 872
+GlyphClass: 4
+Flags: W
+AnchorPoint: "TashkilAbove" 395 1640 mark 0
+LayerCount: 2
+Fore
+SplineSet
+227 2383 m 1,0,1
+ 248 2438 248 2438 290 2387 c 1,2,3
+ 489 2165 489 2165 427 1826 c 1,4,5
+ 420 1796 420 1796 400 1794 c 0,6,7
+ 360 1788 360 1788 356 1826 c 0,8,9
+ 329 2035 329 2035 200 2193 c 0,10,11
+ 179 2220 179 2220 188 2252 c 2,12,-1
+ 227 2383 l 1,0,1
+EndSplineSet
+EndChar
