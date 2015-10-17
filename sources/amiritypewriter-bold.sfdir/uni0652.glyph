@@ -4,6 +4,7 @@ Width: 872
 GlyphClass: 4
 Flags: W
 AnchorPoint: "TashkilAbove" 372 1640 mark 0
+AnchorPoint: "arMarkMark" 372 1640 mark 0
 LayerCount: 2
 Fore
 SplineSet
