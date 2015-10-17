@@ -1,0 +1,12 @@
+StartChar: ar3Noqta.above
+Encoding: 65538 -1 46
+Width: 872
+VWidth: -1000
+GlyphClass: 4
+Flags: W
+AnchorPoint: "arMarkAbove" 438 0 mark 0
+LayerCount: 2
+Fore
+Refer: 44 -1 N 1 0 0 1 8 173 2
+Refer: 45 -1 N 1 0 0 1 0 -1 2
+EndChar
