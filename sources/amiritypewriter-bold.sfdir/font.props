@@ -19,24 +19,25 @@ FSType: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1442325263
-PfmFamily: 17
+PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 184
+LineGap: 190
 VLineGap: 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
-OS2TypoLinegap: 184
+Panose: 0 0 8 9 0 0 0 0 0 0
+OS2TypoAscent: 1640
+OS2TypoAOffset: 0
+OS2TypoDescent: -410
+OS2TypoDOffset: 0
+OS2TypoLinegap: 190
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
 OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+HheadAscent: 1640
+HheadAOffset: 0
+HheadDescent: -410
+HheadDOffset: 0
 OS2Vendor: 'BLQ '
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0"  {"'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment lookup 1"  {"'curs' Cursive Attachment lookup 1-1"  } ['curs' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
@@ -44,6 +45,7 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 2"  {"'mark' Mark Positioning lo
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 3"  {"'mkmk' Mark to Mark lookup 3-1"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+LangName: 1033 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
