@@ -1,5 +1,6 @@
 NAME=amiritypewriter
 VERSION=0.1
+EXT=ttf
 
 SRCDIR=sources
 DOCDIR=documentation
@@ -18,7 +19,7 @@ FONTS=regular bold
 #TESTS=wb yeh-ragaa
 
 SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
-TTF=$(FONTS:%=$(NAME)-%.ttf)
+OTF=$(FONTS:%=$(NAME)-%.$(EXT))
 PDF=$(DOCDIR)/$(NAME)-table.pdf
 
 #TST=$(TESTS:%=$(TESTDIR)/%.txt)
@@ -29,14 +30,14 @@ LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 ttx?=false
 crunch?=false
 
-all: lint ttf doc
+all: lint otf doc
 
-ttf: $(TTF)
+otf: $(OTF)
 doc: $(PDF)
 lint: $(LNT)
 check: lint # $(RUN)
 
-$(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
+$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[1]} $${FILES[0]}
 ifeq ($(ttx), true)
@@ -48,16 +49,16 @@ ifeq ($(crunch), true)
 	@font-crunch -q -j8 -o $@ $@
 endif
 
-#$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.ttf
+#$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.$(EXT)
 #	@echo "   TST	$*"
-#	@$(PY3) $(RUNTEST) $(NAME)-regular.ttf $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
+#	@$(PY3) $(RUNTEST) $(NAME)-regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
 $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@echo "   LNT	$<"
 	@mkdir -p $(TESTDIR)
 	@$(PY) $(SFDLINT) $< $@
 
-$(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.ttf
+$(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.$(EXT)
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
@@ -74,10 +75,10 @@ build-encoded-glyphs: $(SFD) $(SRCDIR)/$(NAME).fea
 dist:
 	@make -B ttx=true crunch=false
 	@mkdir -p $(NAME)-$(VERSION)
-	@cp $(TTF) $(PDF) $(NAME)-$(VERSION)
+	@cp $(OTF) $(PDF) $(NAME)-$(VERSION)
 	@cp OFL.txt $(NAME)-$(VERSION)
 	@markdown README.md | w3m -dump -T text/html | sed -e "/^Sample$$/d" > $(NAME)-$(VERSION)/README.txt
 	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
 clean:
-	@rm -rf $(TTF) $(PDF) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
+	@rm -rf $(OTF) $(PDF) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
