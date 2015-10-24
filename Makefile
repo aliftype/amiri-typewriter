@@ -1,5 +1,5 @@
 NAME=amiritypewriter
-VERSION=0.1
+VERSION=0.2
 EXT=ttf
 
 SRCDIR=sources
