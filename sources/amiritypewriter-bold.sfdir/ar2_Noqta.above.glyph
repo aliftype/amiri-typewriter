@@ -7,6 +7,6 @@ Flags: W
 AnchorPoint: "arMarkAbove" 438 0 mark 0
 LayerCount: 2
 Fore
-Refer: 44 -1 N 1 0 0 1 104 3 2
-Refer: 44 -1 N 1 0 0 1 -104 -4 2
+Refer: 44 -1 S 1 0 0 1 144 3 2
+Refer: 44 -1 N 1 0 0 1 -144 -4 2
 EndChar
