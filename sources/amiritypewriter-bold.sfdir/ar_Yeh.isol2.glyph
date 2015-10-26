@@ -3,8 +3,8 @@ Encoding: 65589 -1 135
 Width: 872
 GlyphClass: 2
 Flags: W
-AnchorPoint: "arMarkBelow" 582 -214 basechar 0
 AnchorPoint: "arMarkAbove" 512 838 basechar 0
+AnchorPoint: "arMarkBelow" 582 -214 basechar 0
 LayerCount: 2
 Back
 SplineSet

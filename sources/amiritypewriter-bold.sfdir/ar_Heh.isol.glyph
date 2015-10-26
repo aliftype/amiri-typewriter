@@ -4,8 +4,8 @@ Width: 872
 VWidth: 0
 GlyphClass: 2
 Flags: W
-AnchorPoint: "arMarkAbove" 379 855 basechar 0
-AnchorPoint: "arMarkBelow" 464 -232 basechar 0
+AnchorPoint: "arMarkAbove" 378.771 855 basechar 0
+AnchorPoint: "arMarkBelow" 463.771 -232 basechar 0
 LayerCount: 2
 Back
 SplineSet

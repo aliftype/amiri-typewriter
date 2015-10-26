@@ -3,8 +3,8 @@ Encoding: 1614 1614 161
 Width: 872
 GlyphClass: 4
 Flags: W
-AnchorPoint: "TashkilAbove" 556 1640 mark 0
 AnchorPoint: "arMarkMark" 556 1640 mark 0
+AnchorPoint: "TashkilAbove" 556 1640 mark 0
 LayerCount: 2
 Fore
 SplineSet
