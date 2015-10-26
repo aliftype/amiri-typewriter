@@ -78,8 +78,8 @@ feature init {
     sub uni0634 by arSeen.init ar3Noqta.above;
     sub uni0635 by arSad.init;
     sub uni0636 by arSad.init ar1Noqta.above;
-    sub uni0637 by arTah.isol;
-    sub uni0638 by arTah.isol ar1Noqta.above;
+    sub uni0637 by arTah.init;
+    sub uni0638 by arTah.init ar1Noqta.above;
     sub uni0639 by arAin.init;
     sub uni063A by arAin.init ar1Noqta.above;
     sub uni0641 by arFeh.init ar1Noqta.above;
@@ -119,8 +119,8 @@ feature medi {
     sub uni0634 by arSeen.init ar3Noqta.above;
     sub uni0635 by arSad.init;
     sub uni0636 by arSad.init ar1Noqta.above;
-    sub uni0637 by arTah.isol;
-    sub uni0638 by arTah.isol ar1Noqta.above;
+    sub uni0637 by arTah.init;
+    sub uni0638 by arTah.init ar1Noqta.above;
     sub uni0639 by arAin.medi;
     sub uni063A by arAin.medi ar1Noqta.above;
     sub uni0641 by arFeh.init ar1Noqta.above;
