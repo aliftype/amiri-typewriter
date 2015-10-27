@@ -1,0 +1,17 @@
+StartChar: guilsinglright.case
+Encoding: 1114178 -1 1044
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 0
+ 1
+ 45
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 1034 8250 N 1 0 0 1 0 45 0
+Colour: ff0000
+EndChar

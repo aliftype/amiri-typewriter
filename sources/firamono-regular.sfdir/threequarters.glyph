@@ -1,0 +1,10 @@
+StartChar: threequarters
+Encoding: 190 190 926
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 950 -1 N 1 0 0 1 -150 0 0
+Refer: 920 8260 N 1 0 0 1 306 0 0
+Refer: 941 -1 N 1 0 0 1 150 0 0
+EndChar

@@ -1,0 +1,30 @@
+StartChar: uni27A1
+Encoding: 10145 10145 1158
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 12
+ 1
+ 1
+ 48
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+640 313 m 1,0,-1
+ 342 13 l 1,1,-1
+ 342 189 l 1,2,-1
+ 10 189 l 2,3,4
+ -13 189 -13 189 -26.5 203 c 128,-1,5
+ -40 217 -40 217 -40 239 c 2,6,-1
+ -40 387 l 2,7,8
+ -40 410 -40 410 -26.5 423.5 c 128,-1,9
+ -13 437 -13 437 10 437 c 2,10,-1
+ 342 437 l 1,11,-1
+ 342 613 l 1,12,-1
+ 640 313 l 1,0,-1
+EndSplineSet
+Colour: ff0000
+EndChar

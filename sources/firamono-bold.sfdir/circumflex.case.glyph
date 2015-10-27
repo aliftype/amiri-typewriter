@@ -1,0 +1,37 @@
+StartChar: circumflex.case
+Encoding: 1114232 -1 1446
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 4
+ 3
+ 2
+ 1
+ 4
+ 0
+ 71
+ 0
+ 0
+ 0
+ 105
+ 21
+ 1
+ 8
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+489 813 m 1,0,-1
+ 433 748 l 1,1,-1
+ 300 833 l 1,2,-1
+ 167 748 l 1,3,-1
+ 110 813 l 1,4,-1
+ 252 943 l 1,5,-1
+ 348 943 l 1,6,-1
+ 489 813 l 1,0,-1
+EndSplineSet
+EndChar

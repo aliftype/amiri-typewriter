@@ -1,0 +1,10 @@
+StartChar: abreve
+Encoding: 259 259 138
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 97 N 1 0 0 1 0 0 0
+Refer: 1429 728 N 1 0 0 1 -8 0 0
+Colour: ff0000
+EndChar

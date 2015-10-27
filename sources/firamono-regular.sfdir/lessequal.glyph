@@ -1,0 +1,53 @@
+StartChar: lessequal
+Encoding: 8804 8804 1093
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 25
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 6
+ 1
+ 72
+ 0
+ 1
+ 1
+ 0
+ 89
+ 0
+ 0
+ 0
+ 58
+ 0
+ 76
+ 17
+ 23
+ 2
+ 8
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+493 479 m 1,0,-1
+ 172 340 l 1,1,-1
+ 493 214 l 1,2,-1
+ 458 142 l 1,3,-1
+ 106 296 l 1,4,-1
+ 106 386 l 1,5,-1
+ 458 547 l 1,6,-1
+ 493 479 l 1,0,-1
+475 0 m 1,7,-1
+ 106 0 l 1,8,-1
+ 106 74 l 1,9,-1
+ 475 74 l 1,10,-1
+ 475 0 l 1,7,-1
+EndSplineSet
+Colour: ff0000
+EndChar

@@ -1,0 +1,18 @@
+StartChar: dcaron
+Encoding: 271 271 157
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 1
+ 53
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 155 100 N 1 0 0 1 -39 0 0
+Refer: 1441 -1 N 1 0 0 1 291 53 0
+Colour: ff0000
+EndChar

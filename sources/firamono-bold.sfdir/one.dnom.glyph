@@ -1,0 +1,73 @@
+StartChar: one.dnom
+Encoding: 1114138 -1 938
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_8
+ 2
+ 1
+ 0
+ 3
+ 1
+ 0
+ 1
+ 74
+MPPEM
+PUSHB_1
+ 45
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 0
+ 0
+ 1
+ 89
+ 0
+ 1
+ 1
+ 58
+ 1
+ 76
+ELSE
+NPUSHB
+ 16
+ 0
+ 0
+ 1
+ 1
+ 0
+ 85
+ 0
+ 0
+ 0
+ 1
+ 89
+ 0
+ 1
+ 0
+ 1
+ 77
+EIF
+PUSHB_5
+ 17
+ 19
+ 2
+ 8
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+309 211 m 1,0,-1
+ 230 170 l 1,1,-1
+ 178 242 l 1,2,-1
+ 326 321 l 1,3,-1
+ 421 321 l 1,4,-1
+ 421 0 l 1,5,-1
+ 309 0 l 1,6,-1
+ 309 211 l 1,0,-1
+EndSplineSet
+EndChar

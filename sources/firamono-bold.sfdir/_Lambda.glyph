@@ -1,0 +1,89 @@
+StartChar: Lambda
+Encoding: 923 923 577
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_6
+ 2
+ 1
+ 0
+ 2
+ 1
+ 74
+MPPEM
+PUSHB_1
+ 43
+LT
+IF
+NPUSHB
+ 12
+ 0
+ 2
+ 2
+ 37
+ 75
+ 1
+ 1
+ 0
+ 0
+ 38
+ 0
+ 76
+ELSE
+MPPEM
+PUSHB_1
+ 45
+LT
+IF
+NPUSHB
+ 12
+ 0
+ 2
+ 0
+ 2
+ 114
+ 1
+ 1
+ 0
+ 0
+ 38
+ 0
+ 76
+ELSE
+NPUSHB
+ 10
+ 0
+ 2
+ 0
+ 2
+ 114
+ 1
+ 1
+ 0
+ 0
+ 105
+EIF
+EIF
+PUSHB_6
+ 17
+ 18
+ 16
+ 3
+ 7
+ 23
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+607 0 m 1,0,-1
+ 431 0 l 1,1,-1
+ 299 571 l 1,2,-1
+ 166 0 l 1,3,-1
+ -7 0 l 1,4,-1
+ 201 693 l 1,5,-1
+ 400 693 l 1,6,-1
+ 607 0 l 1,0,-1
+EndSplineSet
+Colour: ff0000
+EndChar

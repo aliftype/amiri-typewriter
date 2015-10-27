@@ -1,0 +1,19 @@
+StartChar: six.numr
+Encoding: 1114153 -1 953
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 0
+ 2
+PUSHW_1
+ 371
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 943 -1 N 1 0 0 1 0 371 0
+Colour: ff0000
+EndChar

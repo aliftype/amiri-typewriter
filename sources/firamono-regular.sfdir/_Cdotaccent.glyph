@@ -1,0 +1,10 @@
+StartChar: Cdotaccent
+Encoding: 266 266 22
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 67 N 1 0 0 1 0 0 0
+Refer: 1448 -1 N 1 0 0 1 66 0 0
+Colour: ff0000
+EndChar

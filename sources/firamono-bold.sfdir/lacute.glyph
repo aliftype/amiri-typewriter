@@ -1,0 +1,18 @@
+StartChar: lacute
+Encoding: 314 314 197
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 1
+ 1
+ 211
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 196 108 N 1 0 0 1 0 0 0
+Refer: 1428 180 N 1 0 0 1 -44 211 0
+Colour: ff0000
+EndChar

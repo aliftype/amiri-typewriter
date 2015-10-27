@@ -1,0 +1,10 @@
+StartChar: Uhungarumlaut
+Encoding: 368 368 110
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 104 85 N 1 0 0 1 0 0 0
+Refer: 1450 -1 N 1 0 0 1 46 0 0
+Colour: ff0000
+EndChar

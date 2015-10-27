@@ -1,0 +1,54 @@
+StartChar: lozenge
+Encoding: 9674 9674 1218
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 25
+ 10
+ 8
+ 7
+ 3
+ 4
+ 0
+ 1
+ 1
+ 74
+ 0
+ 1
+ 1
+ 57
+ 75
+ 0
+ 0
+ 0
+ 58
+ 0
+ 76
+ 18
+ 17
+ 2
+ 8
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+533 345 m 1,0,-1
+ 349 0 l 1,1,-1
+ 250 0 l 1,2,-1
+ 67 344 l 1,3,-1
+ 250 689 l 1,4,-1
+ 349 689 l 1,5,-1
+ 533 345 l 1,0,-1
+298 624 m 1,6,-1
+ 156 344 l 1,7,-1
+ 298 65 l 1,8,-1
+ 302 65 l 1,9,-1
+ 444 344 l 1,10,-1
+ 302 624 l 1,11,-1
+ 298 624 l 1,6,-1
+EndSplineSet
+Colour: ff0000
+EndChar

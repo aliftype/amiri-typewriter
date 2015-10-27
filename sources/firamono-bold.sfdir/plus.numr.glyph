@@ -1,0 +1,19 @@
+StartChar: plus.numr
+Encoding: 1114198 -1 1118
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 0
+ 1
+PUSHW_1
+ 371
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 1115 -1 N 1 0 0 1 0 371 0
+Colour: ff0000
+EndChar

@@ -1,0 +1,10 @@
+StartChar: Scaron
+Encoding: 352 352 95
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 93 83 N 1 0 0 1 0 0 0
+Refer: 1444 -1 N 1 0 0 1 10 0 0
+Colour: ff0000
+EndChar

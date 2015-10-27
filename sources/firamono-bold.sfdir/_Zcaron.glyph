@@ -1,0 +1,10 @@
+StartChar: Zcaron
+Encoding: 381 381 129
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 127 90 N 1 0 0 1 0 0 0
+Refer: 1444 -1 N 1 0 0 1 13 0 0
+Colour: ff0000
+EndChar

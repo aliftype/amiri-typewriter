@@ -1,0 +1,33 @@
+StartChar: uni2544
+Encoding: 9540 9540 1343
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 12
+ 4
+ 1
+ 48
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+420 470 m 1,0,-1
+ 605 470 l 1,1,-1
+ 605 230 l 1,2,-1
+ 340 230 l 1,3,-1
+ 340 -500 l 1,4,-1
+ 260 -500 l 1,5,-1
+ 260 230 l 1,6,-1
+ 180 230 l 1,7,-1
+ 180 310 l 1,8,-1
+ -5 310 l 1,9,-1
+ -5 390 l 1,10,-1
+ 180 390 l 1,11,-1
+ 180 1000 l 1,12,-1
+ 420 1000 l 1,13,-1
+ 420 470 l 1,0,-1
+EndSplineSet
+Colour: ff0000
+EndChar

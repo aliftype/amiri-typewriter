@@ -1,0 +1,9 @@
+StartChar: perthousand.tosf
+Encoding: 1114215 -1 1135
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1103 8240 N 1 0 0 1 0 0 0
+Colour: ff0000
+EndChar

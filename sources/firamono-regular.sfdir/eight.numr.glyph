@@ -1,0 +1,19 @@
+StartChar: eight.numr
+Encoding: 1114155 -1 955
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 0
+ 3
+PUSHW_1
+ 368
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 945 -1 N 1 0 0 1 0 368 0
+Colour: ff0000
+EndChar

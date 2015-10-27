@@ -1,0 +1,44 @@
+StartChar: asciicircum
+Encoding: 94 94 1388
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 22
+ 2
+ 1
+ 0
+ 2
+ 1
+ 74
+ 0
+ 2
+ 0
+ 2
+ 114
+ 1
+ 1
+ 0
+ 0
+ 105
+ 17
+ 18
+ 16
+ 3
+ 8
+ 23
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+526 527 m 1,0,-1
+ 435 527 l 1,1,-1
+ 299 764 l 1,2,-1
+ 164 527 l 1,3,-1
+ 74 527 l 1,4,-1
+ 263 840 l 1,5,-1
+ 337 840 l 1,6,-1
+ 526 527 l 1,0,-1
+EndSplineSet
+EndChar

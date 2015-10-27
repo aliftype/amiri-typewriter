@@ -1,0 +1,10 @@
+StartChar: zacute.loclPLK
+Encoding: 1114124 -1 272
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 264 122 N 1 0 0 1 0 0 0
+Refer: 1454 -1 N 1 0 0 1 45 0 0
+Colour: ff0000
+EndChar

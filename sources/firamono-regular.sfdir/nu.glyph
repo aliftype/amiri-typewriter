@@ -1,0 +1,42 @@
+StartChar: nu
+Encoding: 957 957 727
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 17
+ 8
+ 6
+ 3
+ 2
+ 4
+ 0
+ 72
+ 0
+ 0
+ 0
+ 38
+ 0
+ 76
+ 25
+ 1
+ 7
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+143 311 m 128,-1,1
+ 89 455 89 455 32 506 c 1,2,-1
+ 116 537 l 1,3,4
+ 171 474 171 474 215.5 352 c 128,-1,5
+ 260 230 260 230 294 74 c 1,6,-1
+ 462 538 l 1,7,-1
+ 547 518 l 1,8,-1
+ 339 0 l 1,9,-1
+ 237 0 l 1,10,0
+ 197 167 197 167 143 311 c 128,-1,1
+EndSplineSet
+Colour: ff0000
+EndChar

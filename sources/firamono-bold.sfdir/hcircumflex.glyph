@@ -1,0 +1,18 @@
+StartChar: hcircumflex
+Encoding: 293 293 177
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 1
+ 1
+ 49
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 175 104 N 1 0 0 1 0 0 0
+Refer: 1446 -1 N 1 0 0 1 0 49 0
+Colour: ff0000
+EndChar

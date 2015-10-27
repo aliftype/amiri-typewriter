@@ -1,0 +1,53 @@
+StartChar: kgreenlandic
+Encoding: 312 312 195
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 26
+ 7
+ 1
+ 0
+ 1
+ 1
+ 74
+ 3
+ 1
+ 1
+ 1
+ 60
+ 75
+ 2
+ 1
+ 0
+ 0
+ 58
+ 0
+ 76
+ 18
+ 18
+ 17
+ 16
+ 4
+ 8
+ 24
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+184 0 m 1,0,-1
+ 100 0 l 1,1,-1
+ 100 527 l 1,2,-1
+ 184 527 l 1,3,-1
+ 184 0 l 1,0,-1
+297 288 m 1,4,-1
+ 563 0 l 1,5,-1
+ 453 0 l 1,6,-1
+ 194 283 l 1,7,-1
+ 427 527 l 1,8,-1
+ 536 527 l 1,9,-1
+ 297 288 l 1,4,-1
+EndSplineSet
+Colour: ff0000
+EndChar

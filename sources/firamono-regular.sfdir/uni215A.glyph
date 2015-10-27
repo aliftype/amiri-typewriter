@@ -1,0 +1,11 @@
+StartChar: uni215A
+Encoding: 8538 8538 932
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 952 -1 N 1 0 0 1 -149 0 0
+Refer: 920 8260 N 1 0 0 1 295 0 0
+Refer: 943 -1 N 1 0 0 1 142 0 0
+Colour: ff0000
+EndChar

@@ -1,0 +1,34 @@
+StartChar: uni0375
+Encoding: 885 885 1405
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 0
+ 1
+ 0
+ 1
+ 114
+ 0
+ 0
+ 0
+ 105
+ 17
+ 16
+ 2
+ 7
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+304 -133 m 1,0,-1
+ 210 -133 l 1,1,-1
+ 325 127 l 1,2,-1
+ 390 127 l 1,3,-1
+ 304 -133 l 1,0,-1
+EndSplineSet
+Colour: ff0000
+EndChar

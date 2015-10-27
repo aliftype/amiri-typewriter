@@ -1,0 +1,20 @@
+StartChar: uni1F18
+Encoding: 7960 7960 640
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 1
+PUSHW_1
+ -100
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 571 917 N 1 0 0 1 0 0 0
+Refer: 1461 8127 N 1 0 0 1 -267 -100 0
+Colour: ff0000
+EndChar

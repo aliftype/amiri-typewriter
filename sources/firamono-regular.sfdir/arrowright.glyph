@@ -1,0 +1,31 @@
+StartChar: arrowright
+Encoding: 8594 8594 1143
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 13
+ 1
+ 1
+ 48
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+577 329 m 1,0,-1
+ 306 24 l 1,1,-1
+ 243 78 l 1,2,-1
+ 386 234 l 2,3,4
+ 421 273 421 273 450 292 c 1,5,-1
+ 23 292 l 1,6,-1
+ 23 366 l 1,7,-1
+ 450 366 l 1,8,9
+ 430 378 430 378 420.5 387.5 c 128,-1,10
+ 411 397 411 397 386 424 c 2,11,-1
+ 243 580 l 1,12,-1
+ 306 634 l 1,13,-1
+ 577 329 l 1,0,-1
+EndSplineSet
+Colour: ff0000
+EndChar

@@ -1,0 +1,10 @@
+StartChar: Jcircumflex
+Encoding: 308 308 58
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 57 74 N 1 0 0 1 0 0 0
+Refer: 1446 -1 N 1 0 0 1 50 0 0
+Colour: ff0000
+EndChar

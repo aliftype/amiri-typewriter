@@ -1,0 +1,27 @@
+StartChar: uni25DE
+Encoding: 9694 9694 1214
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 8
+ 4
+ 1
+ 48
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+135.5 174.5 m 128,-1,1
+ 161 131 161 131 204.5 105.5 c 128,-1,2
+ 248 80 248 80 300 80 c 1,3,-1
+ 300 0 l 1,4,5
+ 226 0 226 0 164 36 c 128,-1,6
+ 102 72 102 72 66 134 c 128,-1,7
+ 30 196 30 196 30 270 c 1,8,-1
+ 110 270 l 1,9,0
+ 110 218 110 218 135.5 174.5 c 128,-1,1
+EndSplineSet
+Colour: ff0000
+EndChar

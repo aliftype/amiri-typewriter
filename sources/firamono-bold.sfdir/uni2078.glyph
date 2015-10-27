@@ -1,0 +1,19 @@
+StartChar: uni2078
+Encoding: 8312 8312 975
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 0
+ 3
+PUSHW_1
+ 315
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 945 -1 N 1 0 0 1 0 315 0
+Colour: ff0000
+EndChar

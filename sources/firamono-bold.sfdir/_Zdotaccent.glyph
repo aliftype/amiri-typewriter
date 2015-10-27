@@ -1,0 +1,10 @@
+StartChar: Zdotaccent
+Encoding: 379 379 130
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 127 90 N 1 0 0 1 0 0 0
+Refer: 1448 -1 N 1 0 0 1 8 0 0
+Colour: ff0000
+EndChar

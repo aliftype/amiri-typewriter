@@ -1,0 +1,29 @@
+StartChar: integraltp
+Encoding: 8992 8992 1090
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 8
+ 0
+ 1
+ 48
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+562 829 m 1,1,-1
+ 519 726 l 1,2,3
+ 473 746 473 746 435 746 c 0,4,5
+ 406 746 406 746 393 729 c 128,-1,6
+ 380 712 380 712 380 675 c 2,7,-1
+ 380 -500 l 1,8,-1
+ 224 -500 l 1,9,-1
+ 224 669 l 2,10,11
+ 224 762 224 762 270 812 c 128,-1,12
+ 316 862 316 862 412 862 c 0,13,0
+ 489 862 489 862 562 829 c 1,1,-1
+EndSplineSet
+Colour: ff0000
+EndChar

@@ -1,0 +1,17 @@
+StartChar: endash.case
+Encoding: 1114171 -1 1027
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 0
+ 1
+ 40
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 1022 8211 N 1 0 0 1 0 40 0
+Colour: ff0000
+EndChar

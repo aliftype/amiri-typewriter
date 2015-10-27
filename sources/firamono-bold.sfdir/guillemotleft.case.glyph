@@ -1,0 +1,17 @@
+StartChar: guillemotleft.case
+Encoding: 1114175 -1 1041
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 0
+ 2
+ 45
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 1031 171 N 1 0 0 1 0 45 0
+Colour: ff0000
+EndChar

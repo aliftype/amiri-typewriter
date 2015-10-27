@@ -1,0 +1,20 @@
+StartChar: uni0313
+Encoding: 787 787 1411
+Width: 0
+GlyphClass: 4
+Flags: W
+TtInstrs:
+PUSHB_2
+ 0
+ 1
+PUSHW_1
+ 833
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 1412 806 N 1 0 0 1 15 833 0
+Colour: ff0000
+EndChar

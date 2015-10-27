@@ -1,0 +1,10 @@
+StartChar: gcircumflex
+Encoding: 285 285 172
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 170 103 N 1 0 0 1 0 0 0
+Refer: 1432 710 N 1 0 0 1 -7 0 0
+Colour: ff0000
+EndChar

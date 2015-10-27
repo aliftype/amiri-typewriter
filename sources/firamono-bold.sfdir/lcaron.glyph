@@ -1,0 +1,18 @@
+StartChar: lcaron
+Encoding: 318 318 198
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_4
+ 1
+ 1
+ 53
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 196 108 N 1 0 0 1 0 0 0
+Refer: 1441 -1 N 1 0 0 1 157 53 0
+Colour: ff0000
+EndChar

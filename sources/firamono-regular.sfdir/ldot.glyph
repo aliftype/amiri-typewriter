@@ -1,0 +1,20 @@
+StartChar: ldot
+Encoding: 320 320 200
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 1
+PUSHW_1
+ -333
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 196 108 N 1 0 0 1 0 0 0
+Refer: 1434 729 N 1 0 0 1 261 -333 0
+Colour: ff0000
+EndChar

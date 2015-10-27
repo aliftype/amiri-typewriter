@@ -1,0 +1,93 @@
+StartChar: Upsilon
+Encoding: 933 933 586
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_8
+ 8
+ 5
+ 2
+ 3
+ 0
+ 1
+ 1
+ 74
+MPPEM
+PUSHB_1
+ 43
+LT
+IF
+NPUSHB
+ 12
+ 2
+ 1
+ 1
+ 1
+ 37
+ 75
+ 0
+ 0
+ 0
+ 38
+ 0
+ 76
+ELSE
+MPPEM
+PUSHB_1
+ 45
+LT
+IF
+NPUSHB
+ 12
+ 2
+ 1
+ 1
+ 0
+ 1
+ 114
+ 0
+ 0
+ 0
+ 38
+ 0
+ 76
+ELSE
+NPUSHB
+ 10
+ 2
+ 1
+ 1
+ 0
+ 1
+ 114
+ 0
+ 0
+ 0
+ 105
+EIF
+EIF
+PUSHB_6
+ 18
+ 18
+ 16
+ 3
+ 7
+ 23
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+382 0 m 1,0,-1
+ 218 0 l 1,1,-1
+ 218 259 l 1,2,-1
+ -8 693 l 1,3,-1
+ 172 693 l 1,4,-1
+ 303 395 l 1,5,-1
+ 435 693 l 1,6,-1
+ 608 693 l 1,7,-1
+ 382 260 l 1,8,-1
+ 382 0 l 1,0,-1
+EndSplineSet
+Colour: ff0000
+EndChar

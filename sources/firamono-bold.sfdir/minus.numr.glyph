@@ -1,0 +1,19 @@
+StartChar: minus.numr
+Encoding: 1114197 -1 1117
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 0
+ 1
+PUSHW_1
+ 371
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 1114 -1 N 1 0 0 1 0 371 0
+Colour: ff0000
+EndChar

@@ -1,0 +1,38 @@
+StartChar: caron
+Encoding: 711 711 1430
+Width: 600
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 6
+ 5
+ 4
+ 3
+ 4
+ 0
+ 72
+ 0
+ 0
+ 0
+ 105
+ 17
+ 1
+ 8
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+489 751 m 1,0,-1
+ 348 611 l 1,1,-1
+ 252 611 l 1,2,-1
+ 110 751 l 1,3,-1
+ 167 815 l 1,4,-1
+ 300 721 l 1,5,-1
+ 433 815 l 1,6,-1
+ 489 751 l 1,0,-1
+EndSplineSet
+Colour: ff0000
+EndChar

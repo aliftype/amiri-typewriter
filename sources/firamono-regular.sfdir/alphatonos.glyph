@@ -1,0 +1,10 @@
+StartChar: alphatonos
+Encoding: 940 940 748
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 715 945 N 1 0 0 1 0 0 0
+Refer: 1458 900 N 1 0 0 1 9 0 0
+Colour: ff0000
+EndChar

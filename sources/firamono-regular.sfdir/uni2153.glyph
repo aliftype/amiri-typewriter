@@ -1,0 +1,11 @@
+StartChar: uni2153
+Encoding: 8531 8531 923
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 948 -1 N 1 0 0 1 -211 0 0
+Refer: 920 8260 N 1 0 0 1 284 0 0
+Refer: 940 -1 N 1 0 0 1 159 0 0
+Colour: ff0000
+EndChar

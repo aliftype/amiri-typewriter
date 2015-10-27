@@ -1,0 +1,19 @@
+StartChar: parenleft.case
+Encoding: 1114164 -1 1014
+Width: 600
+Flags: W
+TtInstrs:
+PUSHB_2
+ 0
+ 1
+PUSHW_1
+ -10
+PUSHB_1
+ 51
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 1006 40 N 1 0 0 1 0 -10 0
+Colour: ff0000
+EndChar

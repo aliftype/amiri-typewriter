@@ -1,0 +1,10 @@
+StartChar: Ubreve
+Encoding: 364 364 106
+Width: 600
+Flags: W
+LayerCount: 2
+Fore
+Refer: 104 85 N 1 0 0 1 0 0 0
+Refer: 1443 -1 N 1 0 0 1 0 0 0
+Colour: ff0000
+EndChar
