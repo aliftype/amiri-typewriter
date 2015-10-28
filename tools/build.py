@@ -66,11 +66,11 @@ def merge(args):
 
     # Set metadata
     arabic.version = args.version
-#   years = datetime.now().year == 2015 and 2015 or "2015-%s" % datetime.now().year
+    years = datetime.now().year == 2015 and 2015 or "2015-%s" % datetime.now().year
 
-#   arabic.copyright = ". ".join(["Portions copyright © %s, Khaled Hosny (<khaledhosny@eglug.org>)",
-#                             "Portions " + latin.copyright[0].lower() + latin.copyright[1:].replace("(c)", "©")])
-#   arabic.copyright = arabic.copyright % years
+    arabic.copyright = ". ".join(["Portions copyright © %s, Khaled Hosny (<khaledhosny@eglug.org>)",
+                              "Portions " + latin.copyright.replace("(c)", "©").replace("Digitized data ", "")])
+    arabic.copyright = arabic.copyright % years
 
     en = "English (US)"
     arabic.appendSFNTName(en, "Designer", "Khaled Hosny")
@@ -80,8 +80,7 @@ This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR \
 CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License \
 for the specific language, permissions and limitations governing your use of \
 this Font Software.')
-#   arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
-#the classical Ruqaa calligraphic style.")
+    arabic.appendSFNTName(en, "Descriptor", "Amiri Typewriter is an Arabic monowidth font inspired by the type of mechanical Arabic typewriters.")
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
 
     return arabic

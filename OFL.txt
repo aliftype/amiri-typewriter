@@ -1,4 +1,4 @@
-Portions copyright (c) 2015, Khaled Hosny (<khaledhosny@eglug.org>). Portions copyright (c) 1997, 2009, 2011 American Mathematical Society (<http://www.ams.org>), with Reserved Font Name EURM10.
+Portions copyright (c) 2015, Khaled Hosny (<khaledhosny@eglug.org>). Digitized data copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A., with Reserved Font Name < Fira >.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
