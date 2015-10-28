@@ -1,10 +1,10 @@
 StartChar: uni0625
-Encoding: 1573 1573 95
+Encoding: 1573 1573 88
 Width: 872
 VWidth: 0
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 53 -1 N 1 0 0 1 0 0 3
-Refer: 109 1621 N 1 0 0 1 37.5 -442 2
+Refer: 47 -1 N 1 0 0 1 0 0 3
+Refer: 102 1621 N 1 0 0 1 37.5 -442 2
 EndChar

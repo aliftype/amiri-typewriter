@@ -19,6 +19,7 @@ FSType: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1442325263
+ModificationTime: 1446040884
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -49,6 +50,10 @@ LangName: 1033
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 18 7
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "arMarkMark"  "'mkmk' Mark to Mark lookup 3-1" "TashkilAbove"  "'mark' Mark Positioning lookup 2-1" "TashkilBelow"  "'mark' Mark Positioning lookup 2-1" "arCursive"  "'curs' Cursive Attachment lookup 1-1" "arMarkBelow"  "'mark' Mark Positioning lookup 0-1" "arMarkAbove"  "'mark' Mark Positioning lookup 0-1" 

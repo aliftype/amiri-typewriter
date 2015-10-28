@@ -39,7 +39,7 @@ def merge(args):
 
     latin = fontforge.open(args.latinfile)
     latin.encoding = "Unicode"
-    scale = arabic["space"].width / latin["space"].width
+    scale = arabic["arAlef.isol"].width / latin["space"].width
     latin.em = int(math.ceil(scale * latin.em))
 
     latin_locl = ""

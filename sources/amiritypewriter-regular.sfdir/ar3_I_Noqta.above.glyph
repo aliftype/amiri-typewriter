@@ -1,5 +1,5 @@
 StartChar: ar3INoqta.above
-Encoding: 65539 -1 47
+Encoding: 65539 -1 41
 Width: 872
 VWidth: -1000
 GlyphClass: 4
@@ -25,6 +25,6 @@ SplineSet
  -101.147460938 80.6328125 l 1,8,-1
 EndSplineSet
 Fore
-Refer: 44 -1 N 1 0 0 1 1 -9 2
-Refer: 45 -1 S 1 0 0 1 0 187 2
+Refer: 38 -1 N 1 0 0 1 1 -9 2
+Refer: 39 -1 S 1 0 0 1 0 187 2
 EndChar

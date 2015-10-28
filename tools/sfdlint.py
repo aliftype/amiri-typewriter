@@ -12,7 +12,7 @@ for glyph in font.glyphs():
         if glyph.glyphclass not in bad_glyph_classes:
             bad_glyph_classes[glyph.glyphclass] = []
         bad_glyph_classes[glyph.glyphclass].append(glyph.glyphname)
-    if glyph.width != font["space"].width:
+    if glyph.width != font["arAlef.isol"].width:
         bad_widths.append(glyph.glyphname)
 #   if ".init" in glyph.glyphname or ".isol" in glyph.glyphname:
 #       if "arKaf.init" not in glyph.glyphname:
