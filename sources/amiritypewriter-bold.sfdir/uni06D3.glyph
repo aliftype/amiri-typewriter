@@ -6,5 +6,6 @@ GlyphClass: 2
 LayerCount: 2
 Fore
 Refer: 128 -1 N 1 0 0 1 0 0 3
-Refer: 101 1620 N 1 0 0 1 56 838 2
+Refer: 101 1620 N 1 0 0 1 55.502 838 2
+Colour: ff0000
 EndChar
