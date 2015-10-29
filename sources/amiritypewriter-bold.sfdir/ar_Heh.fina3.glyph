@@ -3,6 +3,7 @@ Encoding: 65591 -1 131
 Width: 872
 VWidth: 0
 GlyphClass: 2
+UnlinkRmOvrlpSave: 1
 Flags: W
 AnchorPoint: "arMarkBelow" 464 -214 basechar 0
 AnchorPoint: "arMarkAbove" 563 857 basechar 0
