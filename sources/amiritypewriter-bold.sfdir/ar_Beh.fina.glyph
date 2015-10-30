@@ -1,5 +1,5 @@
 StartChar: arBeh.fina
-Encoding: 65576 -1 78
+Encoding: 65576 -1 77
 Width: 872
 VWidth: 0
 GlyphClass: 2
@@ -26,5 +26,5 @@ SplineSet
  425.750976562 780.950195312 l 1,27,-1
 EndSplineSet
 Fore
-Refer: 48 -1 N 1 0 0 1 0 0 2
+Refer: 47 -1 N 1 0 0 1 0 0 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: arLam.medi
-Encoding: 65598 -1 148
+Encoding: 65598 -1 147
 Width: 872
 VWidth: 0
 GlyphClass: 2
@@ -8,5 +8,5 @@ AnchorPoint: "arMarkBelow" 496 -271 basechar 0
 AnchorPoint: "arMarkAbove" 641 848 basechar 0
 LayerCount: 2
 Fore
-Refer: 72 -1 S 1 0 0 1 0 0 2
+Refer: 71 -1 S 1 0 0 1 0 0 2
 EndChar

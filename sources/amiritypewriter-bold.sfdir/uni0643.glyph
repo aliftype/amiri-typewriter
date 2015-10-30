@@ -1,11 +1,11 @@
 StartChar: uni0643
-Encoding: 1603 1603 9
+Encoding: 1603 1603 8
 Width: 872
 VWidth: 0
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 58 -1 N 1 0 0 1 0 0 3
-Refer: 46 -1 N 1 0 0 1 -39 520 2
+Refer: 57 -1 N 1 0 0 1 0 0 3
+Refer: 45 -1 N 1 0 0 1 -39 520 2
 Colour: ff0000
 EndChar

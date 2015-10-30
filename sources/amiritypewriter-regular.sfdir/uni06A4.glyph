@@ -1,11 +1,11 @@
 StartChar: uni06A4
-Encoding: 1700 1700 106
+Encoding: 1700 1700 105
 Width: 872
 VWidth: 0
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 56 -1 N 1 0 0 1 0 0 3
-Refer: 40 -1 N 1 0 0 1 271 800 2
+Refer: 55 -1 N 1 0 0 1 0 0 3
+Refer: 39 -1 N 1 0 0 1 271 800 2
 Colour: ff0000
 EndChar

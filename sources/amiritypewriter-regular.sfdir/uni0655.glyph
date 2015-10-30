@@ -1,5 +1,5 @@
 StartChar: uni0655
-Encoding: 1621 1621 102
+Encoding: 1621 1621 101
 Width: 872
 VWidth: 0
 GlyphClass: 4
@@ -7,5 +7,5 @@ Flags: W
 AnchorPoint: "arMarkBelow" 438 300 mark 0
 LayerCount: 2
 Fore
-Refer: 101 1620 N 1 0 0 1 0 0 2
+Refer: 100 1620 N 1 0 0 1 0 0 2
 EndChar

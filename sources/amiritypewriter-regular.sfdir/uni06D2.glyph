@@ -1,10 +1,10 @@
 StartChar: uni06D2
-Encoding: 1746 1746 117
+Encoding: 1746 1746 116
 Width: 872
 VWidth: 0
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 128 -1 N 1 0 0 1 0 0 3
+Refer: 127 -1 N 1 0 0 1 0 0 3
 Colour: ff0000
 EndChar
