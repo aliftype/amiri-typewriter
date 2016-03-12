@@ -1,5 +1,5 @@
 NAME=amiritypewriter
-VERSION=0.5
+VERSION=1.0
 EXT=ttf
 LATIN=firamono
 
