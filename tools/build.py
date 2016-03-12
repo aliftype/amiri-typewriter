@@ -66,21 +66,17 @@ def merge(args):
 
     # Set metadata
     arabic.version = args.version
-    years = datetime.now().year == 2015 and 2015 or "2015-%s" % datetime.now().year
 
-    arabic.copyright = ". ".join(["Portions copyright © %s, Khaled Hosny (<khaledhosny@eglug.org>)",
-                              "Portions " + latin.copyright.replace("(c)", "©").replace("Digitized data ", "")])
-    arabic.copyright = arabic.copyright % years
+    copyright = 'Copyright © 2015-%s The Amiri Typewriter Project Authors, with Reserved Font Name "Fira".' % datetime.now().year
+
+    arabic.copyright = copyright.replace("©", "(c)")
 
     en = "English (US)"
+    arabic.appendSFNTName(en, "Copyright", copyright)
     arabic.appendSFNTName(en, "Designer", "Khaled Hosny")
     arabic.appendSFNTName(en, "License URL", "http://scripts.sil.org/OFL")
-    arabic.appendSFNTName(en, "License", 'This Font Software is licensed under the SIL Open Font License, Version 1.1. \
-This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR \
-CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License \
-for the specific language, permissions and limitations governing your use of \
-this Font Software.')
-    arabic.appendSFNTName(en, "Descriptor", "Amiri Typewriter is an Arabic monowidth font inspired by the type of mechanical Arabic typewriters.")
+    arabic.appendSFNTName(en, "License", 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL')
+    arabic.appendSFNTName(en, "Descriptor", "Amiri Typewriter is an Arabic monospaced font family inspired by the type of mechanical Arabic typewriters.")
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
 
     return arabic
