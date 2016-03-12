@@ -1,7 +1,7 @@
-NAME=amiritypewriter
+NAME=AmiriTypewriter
 VERSION=1.0
 EXT=ttf
-LATIN=firamono
+LATIN=FiraMono
 
 SRCDIR=sources
 DOCDIR=documentation
@@ -16,12 +16,12 @@ COMPOSE=$(TOOLDIR)/build-encoded-glyphs.py
 #RUNTEST=$(TOOLDIR)/runtest.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
-FONTS=regular bold
+FONTS=Regular Bold
 #TESTS=wb yeh-ragaa
 
 SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
-PDF=$(DOCDIR)/$(NAME)-table.pdf
+PDF=$(DOCDIR)/$(NAME)-Table.pdf
 
 #TST=$(TESTS:%=$(TESTDIR)/%.txt)
 #SHP=$(TESTS:%=$(TESTDIR)/%.shp)
@@ -59,7 +59,7 @@ $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@mkdir -p $(TESTDIR)
 	@$(PY) $(SFDLINT) $< $@
 
-$(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.$(EXT)
+$(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.$(EXT)
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
