@@ -38,7 +38,7 @@ HheadAscent: 1640
 HheadAOffset: 0
 HheadDescent: -410
 HheadDOffset: 0
-OS2Vendor: 'BLQ '
+OS2Vendor: 'ALIF'
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0"  {"'mark' Mark Positioning lookup 0-1"  } ['mark' ('arab' <'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment lookup 1"  {"'curs' Cursive Attachment lookup 1-1"  } ['curs' ('arab' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 2"  {"'mark' Mark Positioning lookup 2-1"  } ['mark' ('arab' <'dflt' > ) ]
