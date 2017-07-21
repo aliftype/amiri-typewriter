@@ -68,7 +68,7 @@ $(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.$(EXT)
 	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
 	@pdfoutline $@.tmp $@.txt $@.comp
-	@pdftk $@.comp output $@ uncompress
+	@mutool clean -d -i -f -a $@.comp $@
 	@rm -f $@.tmp $@.comp $@.txt
 
 build-encoded-glyphs: $(SFD) $(SRCDIR)/$(NAME).fea
