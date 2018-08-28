@@ -28,9 +28,6 @@ PDF=$(DOCDIR)/$(NAME)-Table.pdf
 #RUN=$(TESTS:%=$(TESTDIR)/%.run)
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
-ttx?=false
-crunch?=false
-
 export SOURCE_DATE_EPOCH ?= 0
 
 all: lint otf doc
@@ -45,15 +42,6 @@ $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(LATIN)-%.sfdir $(SRCDIR)
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
 	@$(HINT) $@ $@.tmp
 	@mv $@.tmp $@
-ifeq ($(ttx), true)
-	@echo "   TTX	$@"
-	@pyftsubset $@ --output-file=$@.tmp --unicodes='*' --layout-features='*' --name-IDs='*' --notdef-outline
-	@mv $@.tmp $@
-endif
-ifeq ($(crunch), true)
-	@echo "   FC	$@"
-	@font-crunch -q -j8 -o $@ $@
-endif
 
 #$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.$(EXT)
 #	@echo "   TST	$*"
@@ -82,8 +70,7 @@ build-encoded-glyphs: $(SFD) $(SRCDIR)/$(NAME).fea
 	     $(PY) $(COMPOSE) $(sfd) $(SRCDIR)/$(NAME).fea; \
 	  )
 
-dist:
-	@make -B ttx=true crunch=false
+dist: all
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(OTF) $(PDF) $(NAME)-$(VERSION)
 	@cp OFL.txt $(NAME)-$(VERSION)
