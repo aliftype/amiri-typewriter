@@ -87,6 +87,7 @@ def merge(args):
     arabic.appendSFNTName(en, "License", 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL')
     arabic.appendSFNTName(en, "Descriptor", "Amiri Typewriter is an Arabic monospaced font family inspired by the type of mechanical Arabic typewriters.")
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
+    arabic.appendSFNTName(en, "UniqueID", "%s;%s;%s" % (arabic.version, arabic.os2_vendor, arabic.fontname))
 
     return arabic
 
