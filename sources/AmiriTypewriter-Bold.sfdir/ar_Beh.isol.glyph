@@ -4,6 +4,8 @@ Width: 872
 VWidth: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "TashkilAbove" 320 700 basechar 0
+AnchorPoint: "TashkilBelow" 290 -358 basechar 0
 AnchorPoint: "arMarkBelow" 290 -358 basechar 0
 AnchorPoint: "arMarkAbove" 320 700 basechar 0
 LayerCount: 2
@@ -39,9 +41,9 @@ SplineSet
  889 327 889 327 893 328 c 128,-1,20
  897 329 897 329 902.5 330.5 c 128,-1,21
  908 332 908 332 910 328 c 1,22,23
- 961 291 961 291 915 184 c 0,24,25
- 869 77 869 77 776 14 c 1,26,27
- 670 -44 670 -44 507 -75.5 c 128,-1,28
+ 961 291 961 291 915 184 c 128,-1,24
+ 869 77 869 77 776 14 c 1,25,26
+ 670 -44 670 -44 507 -75.5 c 128,-1,27
  344 -107 344 -107 221 -107 c 1,0,1
 EndSplineSet
 EndChar

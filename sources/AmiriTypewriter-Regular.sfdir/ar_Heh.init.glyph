@@ -5,6 +5,8 @@ VWidth: 0
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
 Flags: W
+AnchorPoint: "TashkilBelow" 464 -214 basechar 0
+AnchorPoint: "TashkilAbove" 563 857 basechar 0
 AnchorPoint: "arMarkAbove" 563 857 basechar 0
 AnchorPoint: "arMarkBelow" 464 -214 basechar 0
 LayerCount: 2

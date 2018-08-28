@@ -3,7 +3,7 @@ Encoding: 1618 1618 156
 Width: 872
 GlyphClass: 4
 Flags: W
-AnchorPoint: "arMarkMark" 372 1640 mark 0
+AnchorPoint: "arMarkMarkAbove" 372 1640 mark 0
 AnchorPoint: "TashkilAbove" 372 1640 mark 0
 LayerCount: 2
 Fore

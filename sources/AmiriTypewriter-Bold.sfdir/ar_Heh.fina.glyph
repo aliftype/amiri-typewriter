@@ -3,6 +3,8 @@ Encoding: 65597 -1 146
 Width: 872
 GlyphClass: 2
 Flags: W
+AnchorPoint: "TashkilBelow" 644 -90 basechar 0
+AnchorPoint: "TashkilAbove" 514 862 basechar 0
 AnchorPoint: "arMarkAbove" 514 862 basechar 0
 AnchorPoint: "arMarkBelow" 644 -90 basechar 0
 LayerCount: 2

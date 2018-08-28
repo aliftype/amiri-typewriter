@@ -4,18 +4,20 @@ FullName: Amiri Typewriter
 FamilyName: Amiri Typewriter
 Weight: Regular
 Copyright: Copyright (c) 2015, Khaled Hosny (<khaledhosny@eglug.org>).
-UComments: "2015-9-15: Created." 
+UComments: "2015-9-15: Created."
 Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -204
 UnderlineWidth: 102
 Ascent: 1638
 Descent: 410
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 XUID: [1021 569 2050002291 10861844]
 FSType: 0
+OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1442325263
@@ -39,10 +41,10 @@ HheadAOffset: 0
 HheadDescent: -410
 HheadDOffset: 0
 OS2Vendor: 'ALIF'
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 0"  {"'mark' Mark Positioning lookup 0-1"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment lookup 1"  {"'curs' Cursive Attachment lookup 1-1"  } ['curs' ('arab' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning lookup 2"  {"'mark' Mark Positioning lookup 2-1"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 3"  {"'mkmk' Mark to Mark lookup 3-1"  } ['mkmk' ('arab' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment lookup 1" { "'curs' Cursive Attachment lookup 1-1"  } ['curs' ('arab' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 2" { "'mark' Mark Positioning lookup 2-1"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 3" { "'mkmk' Mark to Mark lookup 3-1"  } ['mkmk' ('arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
@@ -50,5 +52,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "arMarkMark"  "'mkmk' Mark to Mark lookup 3-1" "TashkilBelow"  "'mark' Mark Positioning lookup 2-1" "TashkilAbove"  "'mark' Mark Positioning lookup 2-1" "arCursive"  "'curs' Cursive Attachment lookup 1-1" "arMarkBelow"  "'mark' Mark Positioning lookup 0-1" "arMarkAbove"  "'mark' Mark Positioning lookup 0-1" 
+AnchorClass2: "arMarkMarkBelow" "'mkmk' Mark to Mark lookup 3-1" "arMarkMarkAbove" "'mkmk' Mark to Mark lookup 3-1" "TashkilBelow" "'mark' Mark Positioning lookup 2-1" "TashkilAbove" "'mark' Mark Positioning lookup 2-1" "arCursive" "'curs' Cursive Attachment lookup 1-1" "arMarkBelow" "'mark' Mark Positioning lookup 0-1" "arMarkAbove" "'mark' Mark Positioning lookup 0-1"
 EndSplineFont

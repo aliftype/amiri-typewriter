@@ -4,6 +4,7 @@ Width: 872
 VWidth: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "arMarkMarkBelow" 431 -111 basemark 0
 AnchorPoint: "arMarkBelow" 438 0 mark 0
 LayerCount: 2
 Fore

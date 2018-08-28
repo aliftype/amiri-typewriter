@@ -4,6 +4,8 @@ Width: 872
 VWidth: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "TashkilAbove" 399 520 basechar 0
+AnchorPoint: "TashkilBelow" 392 -268 basechar 0
 AnchorPoint: "arMarkBelow" 392 -268 basechar 0
 AnchorPoint: "arMarkAbove" 399 520 basechar 0
 LayerCount: 2
