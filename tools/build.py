@@ -34,6 +34,7 @@ def zeromarks(font):
     fea += "} mark;"
     with NamedTemporaryFile("w+", suffix=".fea") as tmp:
         tmp.write(fea)
+        tmp.flush()
         font.mergeFeature(tmp.name)
 
 def merge(args):
@@ -46,7 +47,7 @@ def merge(args):
     scale = arabic["arAlef.isol"].width / latin["space"].width
     latin.em = int(math.ceil(scale * latin.em))
 
-    latin_locl = ""
+    latin_locl = []
     for glyph in latin.glyphs():
         if glyph.glyphclass == "mark":
             glyph.width = latin["A"].width
@@ -57,18 +58,22 @@ def merge(args):
                 name = glyph.glyphname
                 glyph.unicode = -1
                 glyph.glyphname = name + ".latin"
-                if not latin_locl:
-                    latin_locl = "feature locl {lookupflag IgnoreMarks; script latn;"
-                latin_locl += "sub %s by %s;" % (name, glyph.glyphname)
+                latin_locl.append("sub %s by %s;" % (name, glyph.glyphname))
 
     with NamedTemporaryFile(suffix=".sfd") as tmp:
         latin.save(tmp.name)
         arabic.mergeFonts(tmp.name)
 
     if latin_locl:
-        latin_locl += "} locl;"
+        latin_locl = """\
+feature locl {
+  lookupflag IgnoreMarks;
+  script latn;
+  %s
+} locl;""" % "\n  ".join(latin_locl)
         with NamedTemporaryFile("w+", suffix=".fea") as tmp:
             tmp.write(latin_locl)
+            tmp.flush()
             arabic.mergeFeature(tmp.name)
 
     zeromarks(arabic)
