@@ -9,8 +9,7 @@ TOOLDIR=tools
 TESTDIR=tests
 DIST=$(NAME)-$(VERSION)
 
-PY=python2
-PY3=python3
+PY=python
 BUILD=$(TOOLDIR)/build.py
 COMPOSE=$(TOOLDIR)/build-encoded-glyphs.py
 HINT=ttfautohint
@@ -56,7 +55,7 @@ endif
 
 #$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.$(EXT)
 #	@echo "   TST	$*"
-#	@$(PY3) $(RUNTEST) $(NAME)-regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
+#	@$(PY) $(RUNTEST) $(NAME)-regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
 $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@echo "   LNT	$<"
@@ -66,10 +65,14 @@ $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 $(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.$(EXT)
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
-	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
-	@pdfoutline $@.tmp $@.txt $@.comp
-	@mutool clean -d -i -f -a $@.comp $@
-	@rm -f $@.tmp $@.comp $@.txt
+	@fntsample --font-file $< --output-file $@.tmp                         \
+		   --write-outline --use-pango                                 \
+		   --style="header-font: Noto Sans Bold 12"                    \
+		   --style="font-name-font: Noto Serif Bold 12"                \
+		   --style="table-numbers-font: Noto Sans 10"                  \
+		   --style="cell-numbers-font:Noto Sans Mono 8"
+	@mutool clean -d -i -f -a $@.tmp $@
+	@rm -f $@.tmp
 
 build-encoded-glyphs: $(SFD) $(SRCDIR)/$(NAME).fea
 	@$(foreach sfd, $(SFD), \

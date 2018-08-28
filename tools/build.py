@@ -5,8 +5,9 @@ from __future__ import division
 
 import argparse
 import math
+import fontforge
 from datetime import datetime
-from sortsmill import ffcompat as fontforge
+from tempfile import NamedTemporaryFile
 
 def zeromarks(font):
     """Since this is a fixed width font, we make all glyphs the same width (which allows
@@ -30,7 +31,9 @@ def zeromarks(font):
         if glyph.glyphclass == "mark":
             fea += "pos %s -%d;" % (glyph.glyphname, glyph.width)
     fea += "} mark;"
-    font.mergeFeatureString(fea)
+    with NamedTemporaryFile("w+", suffix=".fea") as tmp:
+        tmp.write(fea)
+        font.mergeFeature(tmp.name)
 
 def merge(args):
     arabic = fontforge.open(args.arabicfile)
@@ -57,10 +60,15 @@ def merge(args):
                     latin_locl = "feature locl {lookupflag IgnoreMarks; script latn;"
                 latin_locl += "sub %s by %s;" % (name, glyph.glyphname)
 
-    arabic.mergeFonts(latin)
+    with NamedTemporaryFile(suffix=".sfd") as tmp:
+        latin.save(tmp.name)
+        arabic.mergeFonts(tmp.name)
+
     if latin_locl:
         latin_locl += "} locl;"
-        arabic.mergeFeatureString(latin_locl)
+        with NamedTemporaryFile("w+", suffix=".fea") as tmp:
+            tmp.write(latin_locl)
+            arabic.mergeFeature(tmp.name)
 
     zeromarks(arabic)
 
@@ -93,7 +101,7 @@ def main():
 
     font = merge(args)
 
-    flags = ["round", "opentype", "no-mac-names"]
+    flags = ["round", "opentype"] #, "no-mac-names"]
     font.generate(args.out_file, flags=flags)
 
 if __name__ == "__main__":
