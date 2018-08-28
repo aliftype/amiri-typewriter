@@ -8,6 +8,7 @@ import math
 import fontforge
 from datetime import datetime
 from tempfile import NamedTemporaryFile
+from fontTools.ttLib import TTFont
 
 def zeromarks(font):
     """Since this is a fixed width font, we make all glyphs the same width (which allows
@@ -89,6 +90,29 @@ def merge(args):
 
     return arabic
 
+def generate(args, font):
+    flags = ["round", "opentype"]
+    font.generate(args.out_file, flags=flags)
+
+    font = TTFont(args.out_file)
+
+    # Filter-out useless Macintosh names
+    name = font["name"]
+    name.names = [n for n in name.names if n.platformID != 1]
+
+    # https://github.com/fontforge/fontforge/pull/3235
+    head = font["head"]
+    # fontDirectionHint is deprecated and must be set to 2
+    head.fontDirectionHint = 2
+    # unset bits 6..10
+    head.flags &= ~0x7e0
+
+    # Drop useless table with timestamp
+    if "FFTM" in font:
+        del font["FFTM"]
+
+    font.save(args.out_file)
+
 def main():
     parser = argparse.ArgumentParser(description="Create a version of Amiri with colored marks using COLR/CPAL tables.")
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
@@ -100,9 +124,7 @@ def main():
     args = parser.parse_args()
 
     font = merge(args)
-
-    flags = ["round", "opentype"] #, "no-mac-names"]
-    font.generate(args.out_file, flags=flags)
+    generate(args, font)
 
 if __name__ == "__main__":
     main()
