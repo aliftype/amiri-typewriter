@@ -31,6 +31,8 @@ LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 ttx?=false
 crunch?=false
 
+export SOURCE_DATE_EPOCH ?= 0
+
 all: lint otf doc
 
 otf: $(OTF)
