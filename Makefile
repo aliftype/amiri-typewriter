@@ -12,7 +12,6 @@ DIST=$(NAME)-$(VERSION)
 PY=python
 BUILD=$(TOOLDIR)/build.py
 COMPOSE=$(TOOLDIR)/build-encoded-glyphs.py
-HINT=ttfautohint
 #RUNTEST=$(TOOLDIR)/runtest.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
@@ -40,8 +39,6 @@ check: lint # $(RUN)
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(LATIN)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
-	@$(HINT) $@ $@.tmp
-	@mv $@.tmp $@
 
 #$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.$(EXT)
 #	@echo "   TST	$*"
